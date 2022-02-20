@@ -2,6 +2,7 @@
 const express = require('express');
 const sequelize = require('./config/connection');
 const path = require('path');
+const models = require('./models');
 
 const app = express();
 
